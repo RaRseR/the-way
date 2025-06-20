@@ -64,7 +64,6 @@ fn spawn_enemy(
 
 
 fn update_enemy_transform(
-    handle: Res<GlobalTextureAtlas>,
     player_query: Query<&Transform, With<Player>>,
     mut enemy_query: Query<&mut Transform, (With<Enemy>, Without<Player>)>,
 ) {

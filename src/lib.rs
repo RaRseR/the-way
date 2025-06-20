@@ -6,6 +6,7 @@ pub mod world;
 pub mod player;
 pub mod gun;
 pub mod enemy;
+pub mod animation;
 
 pub use constants::*;
 pub use resources::*;
@@ -15,3 +16,4 @@ pub use world::*;
 pub use player::*;
 pub use gun::*;
 pub use enemy::*;
+pub use animation::*;
